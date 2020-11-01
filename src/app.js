@@ -38,7 +38,8 @@ app.get('/help', (req, res) => {
   res.render('help', {
     title: 'Help page',
     name: 'reconifer',
-    message: 'Sorry, No help will be provided to you :(',
+    message:
+      'Just enter the location and click search. Voila! There it is : Current Temperature',
   });
 });
 

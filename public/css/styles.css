@@ -54,6 +54,7 @@ a:hover {
 } */
 
 .portrait {
+  padding-top: 25px;
   width: 225px;
   justify-content: center;
 }
